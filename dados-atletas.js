@@ -24,9 +24,10 @@ class Atleta {
         return this.categoria = "demais categorias"
       }
     }
+    
     calculaIMC(){
       let imc = this.peso/(this.altura*this.altura)
-      return imc
+      return this.Imc = imc
     }
 
     calculaMediaValida(){
@@ -37,7 +38,7 @@ class Atleta {
         }) 
          let media = soma / notasValidas.length
         
-         return media
+         return this.Media = media
 
     }
 
@@ -72,11 +73,7 @@ class Atleta {
       30, 80, 1.70,
       [10, 9.34, 8.42, 10, 7.88]);
   
-  atleta.obtemNomeAtleta();
-  atleta.obtemIdadeAtleta();
-  atleta.obtemPesoAtleta();
-  atleta.obtemAlturaAtleta();
-  atleta.obtemNotasAtleta();
+
   atleta.obtemCategoria();
   atleta.obtemIMC();
   atleta.obtemMediaValida();
