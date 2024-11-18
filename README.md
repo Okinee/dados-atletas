@@ -12,29 +12,33 @@
 
 Você deverá criar uma classe Atleta para concentrar os atributos e métodos dos atletas.
 
-A classe deverá receber os seguintes atributos:
+**A classe deverá receber os seguintes atributos:**
 
-nome, idade, peso, altura e notas 
+- nome 
+- idade 
+- peso 
+- altura 
+- notas 
 
-A classe deverá possuir os seguintes métodos:
+**A classe deverá possuir os seguintes métodos:**
 
-calculaCategoria(), para calcular a categoria do atleta; 
+- calculaCategoria(), para calcular a categoria do atleta; 
 
-calculaIMC(), para calcular o IMC do atleta; 
+- calculaIMC(), para calcular o IMC do atleta; 
 
-calculaMediaValida(), para calcular a média válida do atleta. 
+- calculaMediaValida(), para calcular a média válida do atleta. 
 
-obtemNomeAtleta(), que retorna o nome do atleta 
+- obtemNomeAtleta(), que retorna o nome do atleta 
 
-obtemIdadeAtleta(), que retorna a idade do atleta 
+- obtemIdadeAtleta(), que retorna a idade do atleta 
 
-obtemPesoAtleta(), que retorna o peso do atleta 
+- obtemPesoAtleta(), que retorna o peso do atleta 
 
-obtemNotasAtleta(), que retorna as notas do atleta 
+- obtemNotasAtleta(), que retorna as notas do atleta 
 
-obtemCategoria(), que retorna a categoria do atleta 
+- obtemCategoria(), que retorna a categoria do atleta 
 
-obtemIMC(), que retorna o IMC do atleta 
+- obtemIMC(), que retorna o IMC do atleta 
 
-obtemMediaValida(), que retorna a média válida do atleta 
+- obtemMediaValida(), que retorna a média válida do atleta 
 
